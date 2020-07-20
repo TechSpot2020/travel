@@ -20,8 +20,7 @@ class MyRoute extends Component {
     return (
       <div>
         <Switch>
-          <Route exact path="/" component={App} />
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/team" component={Team} />

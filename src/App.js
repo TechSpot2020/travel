@@ -11,8 +11,7 @@ import PayForm from "./TrialComponent/PayForm";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <PayForm />
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <TopBar />
         <Header />
         <MyRoute />

@@ -42,7 +42,7 @@ class Header extends Component {
                   <NavLink
                     exact
                     activeStyle={{ color: "orange" }}
-                    to={"/services"}
+                    to={"/travel/services"}
                   >
                     Services
                   </NavLink>
@@ -50,7 +50,11 @@ class Header extends Component {
                 </li>
                 <li>{/* <a href="#portfolio">Portfolio</a> */}</li>
                 <li>
-                  <NavLink exact activeStyle={{ color: "orange" }} to={"/team"}>
+                  <NavLink
+                    exact
+                    activeStyle={{ color: "orange" }}
+                    to={"/travel/team"}
+                  >
                     Team
                   </NavLink>
                   {/* <a href="#team">Team</a> */}
@@ -59,7 +63,7 @@ class Header extends Component {
                   <NavLink
                     exact
                     activeStyle={{ color: "orange" }}
-                    to={"/pricing"}
+                    to={"/travel/pricing"}
                   >
                     Pricing
                   </NavLink>
@@ -68,7 +72,7 @@ class Header extends Component {
                   <NavLink
                     exact
                     activeStyle={{ color: "orange" }}
-                    to="/contact-us"
+                    to="/travel/contact-us"
                   >
                     Contact
                   </NavLink>

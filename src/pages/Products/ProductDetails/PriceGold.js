@@ -10,7 +10,7 @@ class PriceGold extends Component {
             <div class="container">
               <ol>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/home">Home</a>
                 </li>
                 <li>
                   <a href="/pricing">Pricing</a>

@@ -20,7 +20,7 @@ class MyRoute extends Component {
     return (
       <div>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/about-us" component={AboutUs} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/team" component={Team} />
@@ -36,7 +36,7 @@ class MyRoute extends Component {
 
           <Route
             exact
-            path="/travel/checkout-process-silver-subscription"
+            path="/checkout-process-silver-subscription"
             component={SilverCOForm}
           />
 

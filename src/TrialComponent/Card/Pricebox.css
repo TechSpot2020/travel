@@ -1,0 +1,46 @@
+.single-price {
+  text-align: center;
+  background: #262626;
+  margin-top: 20px;
+}
+
+.single-price h3 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-top: -80px;
+  font-family: poppins;
+  color: #ffffff;
+}
+
+.single-price h4 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.single-price h4 span.sup {
+  vertical-align: text-top;
+  font-size: 25px;
+}
+
+.deal-top {
+  position: relative;
+  background: #16a086;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 136px 24px 0;
+}
+
+.deal-top:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -50px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #16a086;
+  border-left: 175px solid transparent;
+  border-right: 183px solid transparent;
+}

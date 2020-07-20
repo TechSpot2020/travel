@@ -1,0 +1,82 @@
+file cadangan previous app.js: (bsa jdi referensi)
+
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+// import TopBar from "./components/TopBar";
+import Header from "./components/Header";
+// import Footer from "./components/Footer";
+// import Clients from "./components/Clients";
+import AboutUs from "./components/AboutUs";
+// import Hero from "./components/Hero";
+// import WhyUs from "./components/WhyUs";
+// import Services from "./components/Services";
+// import Testimonials from "./components/Testimonials";
+// import Portfolio from "./components/Portfolio";
+// import Team from "./components/Team";
+import Pricing from "./components/Pricing";
+// import ContactUs from "./components/ContactUs";
+// import Values from "./components/Values";
+import PricingDetail from "./components/PricingDetail";
+// import PayForm from "./components/PayForm";
+// import config from "./configuration/config";
+import StepperHeader from "./components/Stepper/StepperHeader";
+import Stepper from "./components/Stepper/Stepper";
+import "./components/Stepper/style.css";
+import Form from "./components/AccountSetup/Form";
+import Card from "./Card/Card";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+function App() {
+  return (
+    <>
+      <Router>
+        {/* <TopBar />
+      <Header />
+      <Hero />
+      <main id="main">
+        <WhyUs />
+
+        <AboutUs />
+        <Clients />
+        <Services />
+        <Values />
+        <Testimonials />
+        <Portfolio />
+        <Team />
+        <Pricing />
+        <ContactUs />
+      </main>
+
+      <Footer /> */}
+        {/* <div className="App">
+        <StepperHeader />
+        <div className="contentcontainer padding">
+          <div>
+            <Stepper />
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      {/* 
+      <div className="App">
+        <div className="container">
+          <Form />
+        </div>
+      </div> */}
+        <Header />
+        <Switch>
+          <Route exact path="/about" component={AboutUs} />
+          <PricingDetail />
+          <hr />
+          <Card />
+
+          <Form />
+        </Switch>
+      </Router>
+    </>
+  );
+}
+
+export default App;

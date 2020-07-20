@@ -21,21 +21,17 @@ class MyRoute extends Component {
       <div>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route exact path="/travel/" component={Home} />
-          <Route exact path="/travel/about-us" component={AboutUs} />
-          <Route exact path="/travel/services" component={Services} />
-          <Route exact path="/travel/team" component={Team} />
-          <Route exact path="/travel/pricing" component={ProductCards} />
-          <Route exact path="/travel/price-free-detail" component={PriceFree} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/about-us" component={AboutUs} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/team" component={Team} />
+          <Route exact path="/pricing" component={ProductCards} />
+          <Route exact path="/price-free-detail" component={PriceFree} />
+          <Route exact path="/price-silver-detail" component={PriceSilver} />
+          <Route exact path="/price-gold-detail" component={PriceGold} />
           <Route
             exact
-            path="/travel/price-silver-detail"
-            component={PriceSilver}
-          />
-          <Route exact path="/travel/price-gold-detail" component={PriceGold} />
-          <Route
-            exact
-            path="/travel/checkout-process-free-subscription"
+            path="/checkout-process-free-subscription"
             component={FreeCOForm}
           />
 
@@ -47,11 +43,11 @@ class MyRoute extends Component {
 
           <Route
             exact
-            path="/travel/checkout-process-gold-subscription"
+            path="/checkout-process-gold-subscription"
             component={GoldCOForm}
           />
 
-          <Route exact path="/travel/contact-us" component={ContactUs} />
+          <Route exact path="/contact-us" component={ContactUs} />
           {/* <Route
             exact
             path="/checkout-process-free-subscription"

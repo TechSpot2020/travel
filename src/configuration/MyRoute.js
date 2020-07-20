@@ -13,12 +13,14 @@ import PriceFree from "../pages/Products/ProductDetails/PriceFree";
 import FreeCOForm from "../components/FreeCO/FreeCOForm";
 import SilverCOForm from "../components/SilverCO/SilverCOForm";
 import GoldCOForm from "../components/GoldCO/GoldCOForm";
+import App from "../App";
 
 class MyRoute extends Component {
   render() {
     return (
       <div>
         <Switch>
+          <Route exact path="/" component={App} />
           <Route exact path="/travel/" component={Home} />
           <Route exact path="/travel/about-us" component={AboutUs} />
           <Route exact path="/travel/services" component={Services} />

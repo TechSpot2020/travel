@@ -125,7 +125,7 @@ class ContactUs extends Component {
 
                   <Container>
                     <Button
-                      color="orange"
+                      color="#FFA500"
                       block={true}
                       onClick={this.toggle.bind(this)}
                     >

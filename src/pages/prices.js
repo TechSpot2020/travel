@@ -1,6 +1,6 @@
-import price1 from "../images/pay.png";
-import price2 from "../images/silver.png";
-import price3 from "../images/pay.png";
+import price1 from "../images/free.svg";
+import price2 from "../images/silver.svg";
+import price3 from "../images/gold.svg";
 
 //create Subscription PRICES array
 const PRICES = [

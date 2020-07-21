@@ -12,6 +12,10 @@ class PCSilver extends Component {
     return (
       <>
         <br />
+        <h3>Pricing</h3>
+        <hr />
+        <br />
+        <br />
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
             <div className="col-md-4">
@@ -35,6 +39,8 @@ class PCSilver extends Component {
           </div> */}
           </div>
         </div>
+        <br />
+        <br />
         <br />
       </>
     );

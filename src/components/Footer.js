@@ -90,9 +90,10 @@ class Footer extends Component {
 
                   <form action="">
                     <input type="email" name="email" />
+                    <br />
                     <Container>
                       <Button
-                        color="orange"
+                        color="danger"
                         block={true}
                         onClick={this.toggle.bind(this)}
                       >

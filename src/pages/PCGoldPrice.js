@@ -11,7 +11,7 @@ const PCGoldPrice = (props) => {
       <div className="card-body text-dark">
         <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">
-          Silver membership plan with cost of RM 29.90
+          Gold membership with cost of RM 29.90
         </p>
         <button className="btn btn-outline-success">
           <Link to={"/price-gold-detail"}>View More</Link>

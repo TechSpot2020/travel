@@ -30,7 +30,6 @@ class PriceFree extends Component {
                 {/* <div class="owl-carousel portfolio-details-carousel">
                   <img src={free} class="img-fluid" alt="" />
                 </div> */}
-                <br />
                 <div>
                   <img src={free} alt="free-image-detail" />
                 </div>
@@ -61,13 +60,16 @@ class PriceFree extends Component {
                       <a href="#">TechSpot@gmail.com</a>
                     </li>
                   </ul>
-                  <button
-                    className="btn-primary btn-block"
-                    Link
-                    to={"/checkout-process-free-subscription"}
-                  >
-                    Subscribe Now
-                    {/* <a href="/checkout-process-free-subscription">
+
+                  <button className="btn-primary btn-block">
+                    <Link
+                      exact
+                      activeStyle={{ color: "white" }}
+                      to={"/checkout-process-free-subscription"}
+                    >
+                      Subscribe Now
+                    </Link>
+                    {/* <a href="/checkout-process-gold-subscription">
                       Subscribe Now
                     </a> */}
                   </button>

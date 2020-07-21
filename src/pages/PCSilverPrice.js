@@ -11,8 +11,9 @@ const PCSilverprice = (props) => {
       <div className="card-body text-dark">
         <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">
-          Silver membership plan with cost of RM 19.90
+          Silver membership with cost of RM 19.90
         </p>
+        <br />
         <button className="btn btn-outline-success">
           <Link to={"/price-silver-detail"}>View More</Link>
           {/* <a href={pathLink}>View More</a> */}

@@ -24,15 +24,19 @@ class FreePayForm extends Component {
             <div class="column form-wrapper">
               <h5 className="text-left">Hello, {name}</h5>
               <form action="">
-                <label for="">
-                  <input type="text" id="name" required />
-                  <span>Name</span>
-                </label>
+                <input
+                  type="text"
+                  id="username"
+                  required
+                  placeholder="Your Name"
+                />
 
-                <label for="">
-                  <input type="text" id="c-card" required />
-                  <span>Credit Card</span>
-                </label>
+                <input
+                  type="text"
+                  id="credit card"
+                  required
+                  placeholder="Credit Card"
+                />
 
                 <label for="">Expires on:</label>
 

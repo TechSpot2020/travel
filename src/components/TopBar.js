@@ -10,7 +10,7 @@ class TopBar extends Component {
               <ul>
                 <li>
                   <i class="icofont-envelope"></i>
-                  <a href="mailto:contact@example.com">TechSpot@gmail.com</a>
+                  <a href="mailto:TechSpot@gmail.com">TechSpot@gmail.com</a>
                 </li>
                 <li>
                   <i class="icofont-phone"></i> +(60) 175678302

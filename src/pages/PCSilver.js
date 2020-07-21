@@ -10,20 +10,22 @@ import gold from "../images/gold.svg";
 class PCSilver extends Component {
   render() {
     return (
-      <div className="container-fluid d-flex justify-content-center">
-        <div className="row">
-          <div className="col-md-4">
-            <PCFreePrice imgsrc={free} title="FREE" />
-          </div>
+      <>
+        <br />
+        <div className="container-fluid d-flex justify-content-center">
+          <div className="row">
+            <div className="col-md-4">
+              <PCFreePrice imgsrc={free} title="FREE" />
+            </div>
 
-          <div className="col-md-4">
-            <PCSilverPrice imgsrc={silver} title="SILVER" />
-          </div>
+            <div className="col-md-4">
+              <PCSilverPrice imgsrc={silver} title="SILVER" />
+            </div>
 
-          <div className="col-md-4">
-            <PCGoldPrice imgsrc={gold} title="GOLD" />
-          </div>
-          {/* 
+            <div className="col-md-4">
+              <PCGoldPrice imgsrc={gold} title="GOLD" />
+            </div>
+            {/* 
           <div className="col-md-4">
             <CardPrice imgsrc={pay} title="silver" />
           </div>
@@ -31,8 +33,10 @@ class PCSilver extends Component {
           <div className="col-md-4">
             <CardPrice imgsrc={pay} title="platinum" />
           </div> */}
+          </div>
         </div>
-      </div>
+        <br />
+      </>
     );
   }
 }

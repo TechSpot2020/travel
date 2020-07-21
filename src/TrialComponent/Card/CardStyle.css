@@ -33,5 +33,5 @@ body {
 }
 
 .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1);
 }

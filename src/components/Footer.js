@@ -1,6 +1,17 @@
 import React, { Component } from "react";
+import { Container, Button, Alert } from "reactstrap";
 
 class Footer extends Component {
+  state = {
+    visible: false,
+  };
+
+  toggle() {
+    this.setState({
+      visible: !this.state.visible,
+    });
+  }
+
   render() {
     return (
       <>
@@ -77,9 +88,25 @@ class Footer extends Component {
                   <h4>Join Our Newsletter</h4>
                   <p>Sign up for all the latest tips, tricks, and trends</p>
 
-                  <form action="" method="post">
+                  <form action="">
                     <input type="email" name="email" />
-                    <input type="submit" value="Subscribe" />
+                    <Container>
+                      <Button
+                        color="orange"
+                        block={true}
+                        onClick={this.toggle.bind(this)}
+                      >
+                        Subscribe
+                      </Button>{" "}
+                      <br />
+                      <Alert
+                        color="success"
+                        isOpen={this.state.visible}
+                        toggle={this.toggle.bind(this)}
+                      >
+                        Successfully subscribe!
+                      </Alert>
+                    </Container>
                   </form>
                 </div>
               </div>
@@ -96,24 +123,25 @@ class Footer extends Component {
                 . All Rights Reserved 2020
               </div>
               <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">TechSpot</a>
+                Designed by{" "}
+                <a href="https://techspot2020.github.io/travel/">TechSpot</a>
               </div>
             </div>
             <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
-              <a href="#" class="twitter">
-                <i class="bx bxl-twitter"></i>
-              </a>
               <a href="#" class="facebook">
                 <i class="bx bxl-facebook"></i>
               </a>
-              <a href="#" class="instagram">
+              <a
+                href="https://instagram.com/spotmetravel?igshid=6mgiwmklxnvl"
+                class="instagram"
+              >
                 <i class="bx bxl-instagram"></i>
               </a>
-              <a href="#" class="google-plus">
-                <i class="bx bxl-skype"></i>
-              </a>
-              <a href="#" class="linkedin">
-                <i class="bx bxl-linkedin"></i>
+              <a
+                href="https://techspot2020.github.io/travel/"
+                class="google-plus"
+              >
+                <i class="bx bxl-github"></i>
               </a>
             </div>
           </div>

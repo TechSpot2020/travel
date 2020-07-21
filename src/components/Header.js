@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../images/logo.jpeg";
 
 class Header extends Component {
   render() {
@@ -9,6 +10,7 @@ class Header extends Component {
           <div className="container d-flex">
             <div className="logo mr-auto">
               <h1 className="text-light">
+                <img src={logo} alt="TechSpotLogo" />
                 <Link exact activeStyle={{ color: "orange" }} to={"/"}>
                   <span>Tech Spot</span>
                 </Link>

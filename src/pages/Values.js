@@ -20,21 +20,23 @@ class Values extends Component {
                       <a href="">Our Mission</a>
                     </h5>
                     <p class="card-text">
-                      <li>
-                        To inspire and engage people to confidently explore,
-                        experience and share our world in a more digital and
-                        innovative way.
-                      </li>
-                      <li>
-                        Empowering travellers around the world to discover, book
-                        and experience the best things to do anywhere, anytime,
-                        with the consent of cost efficient.
-                      </li>
-                      <li>
-                        Build many AR experiences and publish multiple times
-                        across different platforms and channels without relying
-                        on technical skills
-                      </li>
+                      <ul className="text-align justify">
+                        <li>
+                          To inspire and engage people to confidently explore,
+                          experience and share our world in a more digital and
+                          innovative way.
+                        </li>
+                        <li>
+                          Empowering travellers around the world to discover,
+                          book and experience the best things to do anywhere,
+                          anytime, with the consent of cost efficient.
+                        </li>
+                        <li>
+                          Build many AR experiences and publish multiple times
+                          across different platforms and channels without
+                          relying on technical skills
+                        </li>
+                      </ul>
                     </p>
                     {/* <div class="read-more">
                       <a href="#">

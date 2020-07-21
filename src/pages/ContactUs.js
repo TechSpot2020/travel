@@ -33,10 +33,8 @@ class ContactUs extends Component {
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>
-                    Level 8, MCT Tower Sky Park, Jalan USJ 25/1, One City, 47650
-                    Subang Jaya, Selangor, Malaysia{" "}
-                  </p>
+                  <p>Level 8, MCT Tower Sky Park</p>
+                  <p>One City, 47650 Subang Jaya, Malaysia </p>
                 </div>
               </div>
 
@@ -51,7 +49,7 @@ class ContactUs extends Component {
                   <p>
                     TechSpot@gmail.com
                     <br />
-                    TechSpotsupport@gmail.com
+                    info@spotme.com
                   </p>
                 </div>
               </div>
@@ -127,7 +125,7 @@ class ContactUs extends Component {
 
                   <Container>
                     <Button
-                      color="primary"
+                      color="orange"
                       block={true}
                       onClick={this.toggle.bind(this)}
                     >

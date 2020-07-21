@@ -27,8 +27,12 @@ class PriceFree extends Component {
           <section class="portfolio-details">
             <div class="container">
               <div class="portfolio-details-container">
-                <div class="owl-carousel portfolio-details-carousel">
+                {/* <div class="owl-carousel portfolio-details-carousel">
                   <img src={free} class="img-fluid" alt="" />
+                </div> */}
+                <br />
+                <div>
+                  <img src={free} alt="free-image-detail" />
                 </div>
 
                 <div class="portfolio-info">
@@ -54,13 +58,15 @@ class PriceFree extends Component {
 
                     <li>
                       <strong>Inquiry</strong>:{" "}
-                      <a href="#">www.TechSpot@company.com</a>
+                      <a href="#">TechSpot@gmail.com</a>
                     </li>
                   </ul>
-                  <button className="btn-primary btn-block">
-                    <Link to={"/checkout-process-free-subscription"}>
-                      Subscribe Now
-                    </Link>
+                  <button
+                    className="btn-primary btn-block"
+                    Link
+                    to={"/checkout-process-free-subscription"}
+                  >
+                    Subscribe Now
                     {/* <a href="/checkout-process-free-subscription">
                       Subscribe Now
                     </a> */}

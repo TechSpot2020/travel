@@ -26,12 +26,11 @@ function Home() {
         <Testimonials />
         <Portfolio />
         <Team />
-        {/* <hr />
-        <PCFree /> */}
 
         <hr />
+        <br />
         <PCSilver />
-
+        <br />
         <ContactUs />
       </main>
     </>

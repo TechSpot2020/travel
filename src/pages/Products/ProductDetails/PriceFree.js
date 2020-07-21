@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import free from "../../../images/free.png";
+import free from "../../../images/free.svg";
 import { Link, NavLink } from "react-router-dom";
 
 class PriceFree extends Component {
@@ -31,12 +31,7 @@ class PriceFree extends Component {
                   <img src={free} class="img-fluid" alt="" />
                 </div> */}
                 <div>
-                  <img
-                    src={free}
-                    width="700px"
-                    height="500px"
-                    alt="free-image-detail"
-                  />
+                  <img src={free} alt="free-image-detail" />
                 </div>
 
                 <div class="portfolio-info">

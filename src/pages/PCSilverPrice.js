@@ -13,7 +13,7 @@ const PCSilverprice = (props) => {
         <p className="card-text text-secondary">
           Silver membership with cost of RM 19.90
         </p>
-        <br />
+
         <button className="btn btn-outline-warning">
           <Link
             exact

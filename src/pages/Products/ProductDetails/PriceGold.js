@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import gold from "../../../images/gold.png";
+import gold from "../../../images/gold.svg";
 import { Link } from "react-router-dom";
 
 class PriceGold extends Component {
@@ -28,12 +28,7 @@ class PriceGold extends Component {
             <div class="container">
               <div class="portfolio-details-container">
                 <div>
-                  <img
-                    src={gold}
-                    width="700px"
-                    height="500px"
-                    alt="gold-image-detail"
-                  />
+                  <img src={gold} alt="gold-image-detail" />
                 </div>
 
                 <div class="portfolio-info">

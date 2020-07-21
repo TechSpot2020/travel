@@ -63,7 +63,7 @@ class PriceSilver extends Component {
                     </li>
                   </ul>
                   <button className="btn-primary btn-block">
-                    <Link to={"/checkout-process-free-subscription"}>
+                    <Link to={"/checkout-process-silver-subscription"}>
                       Subscribe Now
                     </Link>
                     {/* <a href="/checkout-process-silver-subscription">

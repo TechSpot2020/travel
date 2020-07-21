@@ -25,7 +25,7 @@ class MyRoute extends Component {
           <Route path="/team" component={Team} />
           <Route path="/pricing" component={ProductCards} />
           <Route path="/price-free-detail" component={PriceFree} />
-          <Route path="/pricing/price-silver-detail" component={PriceSilver} />
+          <Route path="/price-silver-detail" component={PriceSilver} />
           <Route path="/price-gold-detail" component={PriceGold} />
           <Route
             path="/checkout-process-free-subscription"

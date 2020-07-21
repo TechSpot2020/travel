@@ -12,7 +12,7 @@ const PCSilverprice = (props) => {
         <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">details on the card!!!</p>
         <button className="btn btn-outline-success">
-          <Link to={"/pricing/price-silver-detail"}>View More</Link>
+          <Link to={"/price-silver-detail"}>View More</Link>
           {/* <a href={pathLink}>View More</a> */}
         </button>
       </div>

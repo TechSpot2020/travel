@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Silver from "../../../images/silver.png";
+import { Link, NavLink } from "react-router-dom";
 
 class PriceSilver extends Component {
   render() {
@@ -10,10 +11,16 @@ class PriceSilver extends Component {
             <div class="container">
               <ol>
                 <li>
-                  <a href="/">Home</a>
+                  <Link exact activeStyle={{ color: "orange" }} to={"/"}>
+                    Home
+                  </Link>
+                  {/* <a href="/">Home</a> */}
                 </li>
                 <li>
-                  <a href="/pricing">Pricing</a>
+                  <Link exact activeStyle={{ color: "orange" }} to={"/pricing"}>
+                    Pricing
+                  </Link>
+                  {/* <a href="/pricing">Pricing</a> */}
                 </li>
                 <li>Silver Subscription</li>
               </ol>
@@ -56,9 +63,12 @@ class PriceSilver extends Component {
                     </li>
                   </ul>
                   <button className="btn-primary btn-block">
-                    <a href="/checkout-process-silver-subscription">
+                    <Link to={"/checkout-process-free-subscription"}>
                       Subscribe Now
-                    </a>
+                    </Link>
+                    {/* <a href="/checkout-process-silver-subscription">
+                      Subscribe Now
+                    </a> */}
                   </button>
                 </div>
               </div>

@@ -24,11 +24,8 @@ class MyRoute extends Component {
           <Route path="/services" component={Services} />
           <Route path="/team" component={Team} />
           <Route path="/pricing" component={ProductCards} />
-          <Route
-            path="https://techspot2020.github.io/travel/?#/pricing/price-free-detail"
-            component={PriceFree}
-          />
-          <Route path="/price-silver-detail" component={PriceSilver} />
+          <Route path="/price-free-detail" component={PriceFree} />
+          <Route path="/pricing/price-silver-detail" component={PriceSilver} />
           <Route path="/price-gold-detail" component={PriceGold} />
           <Route
             path="/checkout-process-free-subscription"

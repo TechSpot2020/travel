@@ -9,9 +9,9 @@ class Header extends Component {
           <div className="container d-flex">
             <div className="logo mr-auto">
               <h1 className="text-light">
-                <a href="/">
+                <Link exact activeStyle={{ color: "orange" }} to={"/"}>
                   <span>Tech Spot</span>
-                </a>
+                </Link>
               </h1>
             </div>
 

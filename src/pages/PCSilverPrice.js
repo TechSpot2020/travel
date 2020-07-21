@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardStyle.css";
+import "../TrialComponent/Card/CardStyle.css";
 import { Link, NavLink } from "react-router-dom";
 
 const PCSilverprice = (props) => {

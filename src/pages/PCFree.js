@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./ProductCards.css";
+import "./Products/ProductCards.css";
 import { Link, NavLink } from "react-router-dom";
 
 class PCFree extends Component {
@@ -8,11 +8,12 @@ class PCFree extends Component {
       <>
         <div className="card text-center shadow">
           <div className="overflow">
-            <img
+            <p> image here</p>
+            {/* <img
               src={image}
               alt="subscription-price"
               className="card-img-top"
-            />
+            /> */}
           </div>
 
           <div className="card-body text-dark">

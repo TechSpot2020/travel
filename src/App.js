@@ -9,12 +9,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/">
+      <HashRouter basename="/">
         <TopBar />
         <Header />
         <MyRoute />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

@@ -113,9 +113,9 @@ body {
   height: 40px;
   font-size: 16px;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(39, 37, 37);
   background: transparent;
-  color: white;
+  color: black;
   outline: none;
 }
 
@@ -128,8 +128,8 @@ body {
   background: transparent;
   padding: 7px 0;
   width: calc(50% - 3px);
-  color: white;
-  border-color: white;
+  color: black;
+  border-color: rgb(39, 37, 37);
   outline: none;
   font-size: 16px;
 }
@@ -148,7 +148,7 @@ body {
   text-transform: uppercase;
   border: 1px solid rgb(39, 37, 37);
   background: transparent;
-  color: rgb(39, 37, 37);
+  color: black;
   margin-top: 20px;
   cursor: pointer;
 }

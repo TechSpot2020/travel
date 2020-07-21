@@ -32,8 +32,7 @@ class PriceSilver extends Component {
               <div>
                 <img
                   src={silver}
-                  width="700px"
-                  height="500px"
+                  style={{ width: "700px", height: "500px" }}
                   alt="silver-image-detail"
                 />
               </div>

@@ -5,7 +5,7 @@ import AboutUs from "./AboutUs";
 import WhyUs from "./WhyUs";
 import Services from "./Services";
 import Testimonials from "../components/Testimonials";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
 import Team from "./Team";
 import ContactUs from "./ContactUs";
 import Values from "./Values";
@@ -24,7 +24,7 @@ function Home() {
         <Services />
         <Values />
         <Testimonials />
-        <Portfolio />
+        <br />
         <Team />
 
         <hr />

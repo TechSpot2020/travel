@@ -8,7 +8,7 @@ class Hero extends Component {
         class="d-flex flex-column justify-content-center align-items-center"
       >
         <div class="container" data-aos="fade-in">
-          <h1>Welcome to Flexor</h1>
+          <h1>Welcome to Tech Spot</h1>
           <h2>
             We are team of talanted designers making websites with Bootstrap
           </h2>

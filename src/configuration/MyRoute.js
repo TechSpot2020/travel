@@ -5,7 +5,6 @@ import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
 import Services from "../pages/Services";
 import Team from "../pages/Team";
-import Page404 from "../pages/Page404";
 import ProductCards from "../pages/Products/ProductCards";
 import PriceGold from "../pages/Products/ProductDetails/PriceGold";
 import PriceSilver from "../pages/Products/ProductDetails/PriceSilver";
@@ -13,7 +12,6 @@ import PriceFree from "../pages/Products/ProductDetails/PriceFree";
 import FreeCOForm from "../components/FreeCO/FreeCOForm";
 import SilverCOForm from "../components/SilverCO/SilverCOForm";
 import GoldCOForm from "../components/GoldCO/GoldCOForm";
-import App from "../App";
 
 class MyRoute extends Component {
   render() {
@@ -64,8 +62,6 @@ class MyRoute extends Component {
             path="/checkout-process-gold-subscription"
             component={GoldCOForm}
           /> */}
-
-          <Route component={Page404} />
         </Switch>
       </div>
     );

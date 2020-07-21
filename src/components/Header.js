@@ -9,8 +9,8 @@ class Header extends Component {
           <div className="container d-flex">
             <div className="logo mr-auto">
               <h1 className="text-light">
-                <a href="/home">
-                  <span>Flexor</span>
+                <a href="/travel/">
+                  <span>Tech Spot</span>
                 </a>
               </h1>
             </div>
@@ -18,7 +18,11 @@ class Header extends Component {
             <nav className="nav-menu d-none d-lg-block">
               <ul>
                 <li className="active">
-                  <NavLink exact activeStyle={{ color: "orange" }} to={"/home"}>
+                  <NavLink
+                    exact
+                    activeStyle={{ color: "orange" }}
+                    to={"/home/"}
+                  >
                     Home
                   </NavLink>
 

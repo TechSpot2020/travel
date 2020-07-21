@@ -29,7 +29,15 @@ export class SilverConfirm extends Component {
             <ul className="list-group">
               <li className="list-group-item">
                 <div>{PRICES[1].title}</div>
-                <div>{PRICES[1].description}</div>
+                <br />
+                <div>
+                  {" "}
+                  Details :<li>Map Navigation Service</li>
+                  <li>Unlimited Booking and Planning</li>
+                  <li>Double point Reward than free user</li>
+                  <li>2x Travel Insurance included</li>
+                  <li>More promotion limited for Silver</li>
+                </div>
               </li>
             </ul>
           </li>

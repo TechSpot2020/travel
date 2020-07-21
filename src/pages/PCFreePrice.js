@@ -11,7 +11,7 @@ const PCFreePrice = (props) => {
       <div className="card-body text-dark">
         <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">Free plan with cost of RM 0</p>
-        <button className="btn btn-outline-danger">
+        <button className="btn btn-outline-warning">
           <Link
             exact
             activeStyle={{ color: "white" }}

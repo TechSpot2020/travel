@@ -87,26 +87,25 @@ class Footer extends Component {
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                   <h4>Join Our Newsletter</h4>
                   <p>Sign up for all the latest tips, tricks, and trends</p>
-
                   <form action="">
                     <input type="email" name="email" />
                     <br />
-                    <Button
-                      color="danger"
-                      block={true}
-                      onClick={this.toggle.bind(this)}
-                    >
-                      Subscribe
-                    </Button>{" "}
-                    <br />
-                    <Alert
-                      color="success"
-                      isOpen={this.state.visible}
-                      toggle={this.toggle.bind(this)}
-                    >
-                      Successfully subscribe!
-                    </Alert>
                   </form>
+                  <Button
+                    color="danger"
+                    block={true}
+                    onClick={this.toggle.bind(this)}
+                  >
+                    Subscribe
+                  </Button>{" "}
+                  <br />
+                  <Alert
+                    color="success"
+                    isOpen={this.state.visible}
+                    toggle={this.toggle.bind(this)}
+                  >
+                    Successfully subscribe!
+                  </Alert>
                 </div>
               </div>
             </div>

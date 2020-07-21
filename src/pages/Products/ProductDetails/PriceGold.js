@@ -28,7 +28,12 @@ class PriceGold extends Component {
             <div class="container">
               <div class="portfolio-details-container">
                 <div>
-                  <img src={gold} class="img-fluid" alt="" />
+                  <img
+                    src={gold}
+                    width="700px"
+                    height="500px"
+                    alt="gold-image-detail"
+                  />
                 </div>
 
                 <div class="portfolio-info">

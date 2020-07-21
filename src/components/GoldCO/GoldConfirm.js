@@ -29,7 +29,15 @@ export class GoldConfirm extends Component {
             <ul className="list-group">
               <li className="list-group-item">
                 <div>{PRICES[2].title}</div>
-                <div>{PRICES[2].description}</div>
+                <br />
+                <div>
+                  {" "}
+                  Details :<li>Unlimited Booking and planning</li>
+                  <li>Enable Map navigation</li>
+                  <li>Triple reward point than free user</li>
+                  <li>3 Travel Insurance included every year</li>
+                  <li>More promotions available</li>
+                </div>
               </li>
             </ul>
           </li>

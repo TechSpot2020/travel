@@ -29,6 +29,7 @@ export class FreeConfirm extends Component {
             <ul className="list-group">
               <li className="list-group-item">
                 <div>{PRICES[0].title}</div>
+                <br />
                 <div>
                   {" "}
                   Details :<li>Best Guranteed Booking Price</li>

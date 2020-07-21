@@ -13,7 +13,7 @@ const PCGoldPrice = (props) => {
         <p className="card-text text-secondary">
           Gold membership with cost of RM 29.90
         </p>
-        <button className="btn btn-outline-danger">
+        <button className="btn btn-outline-warning">
           <Link
             exact
             activeStyle={{ color: "white" }}

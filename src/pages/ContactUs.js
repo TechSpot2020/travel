@@ -66,6 +66,8 @@ class ContactUs extends Component {
                     <br />
                     +(60) 117776290
                   </p>
+                  <br />
+                  <br />
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../PayForm.css";
 import PRICES from "../../pages/prices";
+import { Link } from "react-router-dom";
 
 class FreePayForm extends Component {
   render() {
@@ -66,7 +67,7 @@ class FreePayForm extends Component {
 
                 <div class="btn-checkout">
                   <button type="submit">
-                    <Link to={"/home"}>Checkout</Link>
+                    <Link to={"/"}>Checkout</Link>
                   </button>
                 </div>
               </form>

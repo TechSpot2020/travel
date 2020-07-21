@@ -27,8 +27,16 @@ class PriceSilver extends Component {
           <section class="portfolio-details">
             <div class="container">
               <div class="portfolio-details-container">
-                <div class="owl-carousel portfolio-details-carousel">
+                {/* <div class="owl-carousel portfolio-details-carousel">
                   <img src={silver} class="img-fluid" alt="" />
+                </div> */}
+                <div>
+                  <img
+                    src={silver}
+                    width="700px"
+                    height="500px"
+                    alt="silver-image-detail"
+                  />
                 </div>
 
                 <div class="portfolio-info">

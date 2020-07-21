@@ -9,10 +9,11 @@ class Services extends Component {
             <div class="section-title" data-aos="fade-up">
               <h2>Services</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Collection of the services or function in SpotMe application
+                created by TechSpot. Effective, efficient, and effortless
+                travelling experience are united into one package. Each scene is
+                memorable and presented by AR which enhancing the real
+                experience of the customer. Your satisfaction is our pleasure!
               </p>
             </div>
 
@@ -23,11 +24,13 @@ class Services extends Component {
                     <i class="icofont-computer"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Lorem Ipsum</a>
+                    <a href="">Smart Plan / Book</a>
                   </h4>
                   <p class="description">
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi sint occaecati cupiditate non provident
+                    We can enable easier booking of tour planning and meet you
+                    anywhere in your journey with a unique plan that changes and
+                    grows with you, from full implementation to excitement and
+                    satisfaction management furing travelling.
                   </p>
                 </div>
               </div>
@@ -41,11 +44,13 @@ class Services extends Component {
                     <i class="icofont-chart-bar-graph"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Dolor Sitema</a>
+                    <a href="">Customization</a>
                   </h4>
                   <p class="description">
-                    Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat tarad limino ata
+                    The app allow to customize tour experience anywhere in user
+                    journey with a unique personalization planning that changes
+                    and grows with you with recommendation algorithm within our
+                    SpotMe app.
                   </p>
                 </div>
               </div>
@@ -59,11 +64,13 @@ class Services extends Component {
                     <i class="icofont-earth"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Sed ut perspiciatis</a>
+                    <a href="">Navigation Map with AR</a>
                   </h4>
                   <p class="description">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur
+                    Travelling become easier with our advanced navigation. User
+                    no need to worry to be lost during travelling. Once click
+                    away from SpotMe, our app will help you navigate the route
+                    for you anywhere you wanna go with AR!
                   </p>
                 </div>
               </div>
@@ -77,11 +84,13 @@ class Services extends Component {
                     <i class="icofont-image"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Magni Dolores</a>
+                    <a href="">Wishlist Tour spot</a>
                   </h4>
                   <p class="description">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    Traveling can bring the best and good impression about the
+                    tour spot. We allow users to save their favorite place
+                    during travelling and will utilize the data to bring the
+                    best on the similar tour place that may liked by the users.
                   </p>
                 </div>
               </div>
@@ -95,11 +104,12 @@ class Services extends Component {
                     <i class="icofont-settings"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Nemo Enim</a>
+                    <a href="">Surprise Package</a>
                   </h4>
                   <p class="description">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
+                    Be boost and excited by our suprise package where we provide
+                    many exciting services and rewards that can be enjoyed by
+                    the users during travelling only by using our app.
                   </p>
                 </div>
               </div>
@@ -113,11 +123,12 @@ class Services extends Component {
                     <i class="icofont-tasks-alt"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Eiusmod Tempor</a>
+                    <a href="">Tour Activities</a>
                   </h4>
                   <p class="description">
-                    Et harum quidem rerum facilis est et expedita distinctio.
-                    Nam libero tempore, cum soluta nobis est eligendi
+                    We provide numerous and exciting activities for the users to
+                    enrich their experiences and satisfaction during the tour or
+                    travelling.Be sure to check on it!
                   </p>
                 </div>
               </div>

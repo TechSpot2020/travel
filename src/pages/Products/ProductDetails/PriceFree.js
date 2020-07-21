@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Silver from "../../../images/silver.png";
+import free from "../../../images/free.svg";
 import { Link, NavLink } from "react-router-dom";
 
 class PriceFree extends Component {
@@ -11,15 +11,11 @@ class PriceFree extends Component {
             <div class="container">
               <ol>
                 <li>
-                  <Link exact activeStyle={{ color: "orange" }} to={"/"}>
-                    Home
-                  </Link>
+                  <Link to={"/"}>Home</Link>
                   {/* <a href="/">Home</a> */}
                 </li>
                 <li>
-                  <Link exact activeStyle={{ color: "orange" }} to={"/pricing"}>
-                    Pricing
-                  </Link>
+                  <Link to={"/pricing"}>Pricing</Link>
                   {/* <a href="/pricing">Pricing</a> */}
                 </li>
                 <li>Free</li>
@@ -32,34 +28,33 @@ class PriceFree extends Component {
             <div class="container">
               <div class="portfolio-details-container">
                 <div class="owl-carousel portfolio-details-carousel">
-                  <img src={Silver} class="img-fluid" alt="" />
-                  <img
-                    src="assets/img/portfolio/portfolio-details-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <img
-                    src="assets/img/portfolio/portfolio-details-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src={free} class="img-fluid" alt="" />
                 </div>
 
                 <div class="portfolio-info">
-                  <h3>Project information</h3>
+                  <h3>Subscription Information</h3>
                   <ul>
                     <li>
-                      <strong>Category</strong>: Web design
+                      <h4>
+                        <strong>Price</strong>: RM 0
+                      </h4>
                     </li>
+
                     <li>
-                      <strong>Client</strong>: ASU Company
+                      <strong>Category</strong>: Free Membership
                     </li>
+
                     <li>
-                      <strong>Project date</strong>: 01 March, 2020
+                      <strong>Release date</strong>: 01 January 2020
                     </li>
+
                     <li>
-                      <strong>Project URL</strong>:{" "}
-                      <a href="#">www.example.com</a>
+                      <strong>Released by</strong>: TechSpot Company
+                    </li>
+
+                    <li>
+                      <strong>Inquiry</strong>:{" "}
+                      <a href="#">www.TechSpot@company.com</a>
                     </li>
                   </ul>
                   <button className="btn-primary btn-block">
@@ -74,14 +69,18 @@ class PriceFree extends Component {
               </div>
 
               <div class="portfolio-description">
-                <h2>This is an example of portfolio detail</h2>
+                <h2>Free User Plan Detail : </h2>
                 <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                  itaque inventore commodi labore quia quia. Exercitationem
-                  repudiandae officiis neque suscipit non officia eaque itaque
-                  enim. Voluptatem officia accusantium nesciunt est omnis
-                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
-                  deserunt eius.
+                  All users can use the application with unlimited booking and
+                  planning the trip. User can also start to gain promotion and
+                  point rewards for having more additional excitement and
+                  satisfaction.
+                  <br />
+                  Noted that this free plan come up with:
+                  <li> Best Guranteed Booking Price</li>
+                  <li>Map Navigation Service</li>
+                  <li>Point Reward Collection</li>
+                  <li>Promotion Available</li>
                 </p>
               </div>
             </div>

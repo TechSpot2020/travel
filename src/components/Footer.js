@@ -11,14 +11,14 @@ class Footer extends Component {
                 <div class="col-lg-3 col-md-6 footer-contact">
                   <h3>Flexor</h3>
                   <p>
-                    A108 Adam Street <br />
-                    New York, NY 535022
+                    Level 8, MCT Tower Sky Park, Jalan USJ 25/1 <br />
+                    One City, 47650 Subang Jaya, Selangor
                     <br />
-                    United States <br />
+                    Malaysia <br />
                     <br />
-                    <strong>Phone:</strong> +1 5589 55488 55
+                    <strong>Phone:</strong> +(60) 175678302
                     <br />
-                    <strong>Email:</strong> info@example.com
+                    <strong>Email:</strong> TechSpot@gmail.com
                     <br />
                   </p>
                 </div>
@@ -38,8 +38,7 @@ class Footer extends Component {
                       <a href="#">Services</a>
                     </li>
                     <li>
-                      <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Terms of service</a>
+                      <i class="bx bx-chevron-right"></i> <a href="#">Teams</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
@@ -53,33 +52,30 @@ class Footer extends Component {
                   <ul>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Web Design</a>
+                      <a href="#">Product Support</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Web Development</a>
+                      <a href="#">Subscription Management</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Product Management</a>
+                      <a href="#">AR Integration App</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Marketing</a>
+                      <a href="#">Enterprise Marketing</a>
                     </li>
                     <li>
                       <i class="bx bx-chevron-right"></i>{" "}
-                      <a href="#">Graphic Design</a>
+                      <a href="#">Travel Plan</a>
                     </li>
                   </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                   <h4>Join Our Newsletter</h4>
-                  <p>
-                    Tamen quem nulla quae legam multos aute sint culpa legam
-                    noster magna
-                  </p>
+                  <p>Sign up for all the latest tips, tricks, and trends</p>
 
                   <form action="" method="post">
                     <input type="email" name="email" />
@@ -95,13 +91,12 @@ class Footer extends Component {
               <div class="copyright">
                 &copy; Copyright{" "}
                 <strong>
-                  <span>Flexor</span>
+                  <span>TechSpot</span>
                 </strong>
-                . All Rights Reserved
+                . All Rights Reserved 2020
               </div>
               <div class="credits">
-                Designed by{" "}
-                <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://bootstrapmade.com/">TechSpot</a>
               </div>
             </div>
             <div class="social-links text-center text-lg-right pt-3 pt-lg-0">

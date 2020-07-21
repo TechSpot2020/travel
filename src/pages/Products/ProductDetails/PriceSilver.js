@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Silver from "../../../images/silver.png";
+import silver from "../../../images/silver.svg";
 import { Link, NavLink } from "react-router-dom";
 
 class PriceSilver extends Component {
@@ -11,15 +11,11 @@ class PriceSilver extends Component {
             <div class="container">
               <ol>
                 <li>
-                  <Link exact activeStyle={{ color: "orange" }} to={"/"}>
-                    Home
-                  </Link>
+                  <Link to={"/"}>Home</Link>
                   {/* <a href="/">Home</a> */}
                 </li>
                 <li>
-                  <Link exact activeStyle={{ color: "orange" }} to={"/pricing"}>
-                    Pricing
-                  </Link>
+                  <Link to={"/pricing"}>Pricing</Link>
                   {/* <a href="/pricing">Pricing</a> */}
                 </li>
                 <li>Silver Subscription</li>
@@ -32,36 +28,37 @@ class PriceSilver extends Component {
             <div class="container">
               <div class="portfolio-details-container">
                 <div class="owl-carousel portfolio-details-carousel">
-                  <img src={Silver} class="img-fluid" alt="" />
-                  <img
-                    src="assets/img/portfolio/portfolio-details-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <img
-                    src="assets/img/portfolio/portfolio-details-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src={silver} class="img-fluid" alt="" />
                 </div>
 
                 <div class="portfolio-info">
                   <h3>Project information</h3>
                   <ul>
                     <li>
-                      <strong>Category</strong>: Web design
+                      <h4>
+                        <strong>Price</strong>: RM 19.90
+                      </h4>
+                      <p>Every Month</p>
                     </li>
+
                     <li>
-                      <strong>Client</strong>: ASU Company
+                      <strong>Category</strong>: Silver Membership
                     </li>
+
                     <li>
-                      <strong>Project date</strong>: 01 March, 2020
+                      <strong>Release date</strong>: 10 January 2020
                     </li>
+
                     <li>
-                      <strong>Project URL</strong>:{" "}
-                      <a href="#">www.example.com</a>
+                      <strong>Released by</strong>: TechSpot Company
+                    </li>
+
+                    <li>
+                      <strong>Inquiry</strong>:{" "}
+                      <a href="#">TechSpot@company.com</a>
                     </li>
                   </ul>
+
                   <button className="btn-primary btn-block">
                     <Link to={"/checkout-process-silver-subscription"}>
                       Subscribe Now
@@ -74,14 +71,20 @@ class PriceSilver extends Component {
               </div>
 
               <div class="portfolio-description">
-                <h2>This is an example of portfolio detail</h2>
+                <h2>Silver Membership Detail : </h2>
                 <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                  itaque inventore commodi labore quia quia. Exercitationem
-                  repudiandae officiis neque suscipit non officia eaque itaque
-                  enim. Voluptatem officia accusantium nesciunt est omnis
-                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
-                  deserunt eius.
+                  This is the upgrade version from the free plan subscription
+                  which having enhancement on the services and more promotional.
+                  Definitely empower the rate of users experience and
+                  satisfaction during travelling.
+                  <br />
+                  Following are the benefits you can enjoy for silver
+                  subscription:
+                  <li>Map Navigation Service</li>
+                  <li>Unlimited Booking and Planning</li>
+                  <li>Double point Reward than free user</li>
+                  <li>2x Travel Insurance included</li>
+                  <li>More promotion limited for Silver</li>
                 </p>
               </div>
             </div>

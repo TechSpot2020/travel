@@ -18,12 +18,13 @@ class ContactUs extends Component {
         <section id="contact" class="contact">
           <div class="container">
             <div class="section-title">
-              <h2 data-aos="fade-up">Contact</h2>
+              <h2 data-aos="fade-up">Contact our Support!</h2>
+              <h4 data-a0s="fade-up">
+                Need to get in touch with the team? We’re all ears.
+              </h4>
               <p data-aos="fade-up">
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Our team is happy to answer your sales questions. Fill out the
+                form and we’ll be in touch as soon as possible.
               </p>
             </div>
 
@@ -32,7 +33,10 @@ class ContactUs extends Component {
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>
+                    Level 8, MCT Tower Sky Park, Jalan USJ 25/1, One City, 47650
+                    Subang Jaya, Selangor, Malaysia{" "}
+                  </p>
                 </div>
               </div>
 
@@ -45,9 +49,9 @@ class ContactUs extends Component {
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
                   <p>
-                    info@example.com
+                    TechSpot@gmail.com
                     <br />
-                    contact@example.com
+                    TechSpotsupport@gmail.com
                   </p>
                 </div>
               </div>
@@ -60,9 +64,9 @@ class ContactUs extends Component {
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
                   <p>
-                    +1 5589 55488 55
+                    +(60) 175678302
                     <br />
-                    +1 6678 254445 41
+                    +(60) 117776290
                   </p>
                 </div>
               </div>

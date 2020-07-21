@@ -20,7 +20,7 @@ function Home() {
       <main id="main">
         <WhyUs />
         <AboutUs />
-        <Clients />
+        {/* <Clients /> */}
         <Services />
         <Values />
         <Testimonials />

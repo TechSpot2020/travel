@@ -10,7 +10,7 @@ class Hero extends Component {
         <div class="container" data-aos="fade-in">
           <h1>Welcome to Tech Spot</h1>
           <h2>
-            We are team of talanted designers making websites with Bootstrap
+            Easy planning, Simple travelling, Unlock your travelling dream{" "}
           </h2>
           <div class="d-flex align-items-center">
             <i class="bx bxs-right-arrow-alt get-started-icon"></i>

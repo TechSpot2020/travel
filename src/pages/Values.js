@@ -20,14 +20,27 @@ class Values extends Component {
                       <a href="">Our Mission</a>
                     </h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur elit, sed do
-                      eiusmod tempor ut labore et dolore magna aliqua.
+                      <li>
+                        To inspire and engage people to confidently explore,
+                        experience and share our world in a more digital and
+                        innovative way.
+                      </li>
+                      <li>
+                        Empowering travellers around the world to discover, book
+                        and experience the best things to do anywhere, anytime,
+                        with the consent of cost efficient.
+                      </li>
+                      <li>
+                        Build many AR experiences and publish multiple times
+                        across different platforms and channels without relying
+                        on technical skills
+                      </li>
                     </p>
-                    <div class="read-more">
+                    {/* <div class="read-more">
                       <a href="#">
-                        <i class="icofont-arrow-right"></i> Read More
+                        <i class="icofont-arrow-right"></i>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -42,17 +55,21 @@ class Values extends Component {
                 >
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="">Our Plan</a>
+                      <a href="">Our Vision</a>
                     </h5>
                     <p class="card-text">
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem doloremque laudantium, totam rem.
+                      On our commitment to provide a trusted resource for
+                      travellers with valued advice and insights from the SpotMe
+                      community, based on the wisdom of the crowds and immersive
+                      digital Augmented Reality content. We believe with this,
+                      it will engage your consumers in a more digital and
+                      innovative way.
                     </p>
-                    <div class="read-more">
+                    {/* <div class="read-more">
                       <a href="#">
                         <i class="icofont-arrow-right"></i> Read More
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -67,17 +84,18 @@ class Values extends Component {
                 >
                   <div class="card-body">
                     <h5 class="card-title">
-                      <a href="">Our Vision</a>
+                      <a href="">Our Plan</a>
                     </h5>
                     <p class="card-text">
-                      Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                      fugit, sed quia magni dolores.
+                      Innovate and engage audience digitally with immersive
+                      travelling experience content ranging from Augmented
+                      Reality mapping.
                     </p>
-                    <div class="read-more">
+                    {/* <div class="read-more">
                       <a href="#">
                         <i class="icofont-arrow-right"></i> Read More
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -95,14 +113,14 @@ class Values extends Component {
                       <a href="">Our Care</a>
                     </h5>
                     <p class="card-text">
-                      Nostrum eum sed et autem dolorum perspiciatis. Magni porro
-                      quisquam laudantium voluptatem.
+                      Customers satisfaction and experiences are our pleasure!
+                      and glory!
                     </p>
-                    <div class="read-more">
+                    {/* <div class="read-more">
                       <a href="#">
                         <i class="icofont-arrow-right"></i> Read More
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

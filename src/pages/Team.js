@@ -7,12 +7,11 @@ class Team extends Component {
         <section id="team" class="team section-bg">
           <div class="container">
             <div class="section-title">
-              <h2 data-aos="fade-up">Team</h2>
+              <h2 data-aos="fade-up">IT’S ALL ABOUT THE TEAM</h2>
               <p data-aos="fade-up">
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                The people who work at TechSpot share the vision and values of
+                our community. We’re driven by the idea that the best work is
+                born from diligence, craftsmanship and fun.
               </p>
             </div>
 
@@ -44,7 +43,7 @@ class Team extends Component {
                     </div>
                   </div>
                   <div class="member-info">
-                    <h4>Walter White</h4>
+                    <h4>Brian</h4>
                     <span>Chief Executive Officer</span>
                   </div>
                 </div>
@@ -78,8 +77,8 @@ class Team extends Component {
                     </div>
                   </div>
                   <div class="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
+                    <h4>Meliana</h4>
+                    <span>CTO</span>
                   </div>
                 </div>
               </div>
@@ -112,8 +111,8 @@ class Team extends Component {
                     </div>
                   </div>
                   <div class="member-info">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
+                    <h4>Xi Wen</h4>
+                    <span>Product Manager</span>
                   </div>
                 </div>
               </div>
@@ -146,7 +145,7 @@ class Team extends Component {
                     </div>
                   </div>
                   <div class="member-info">
-                    <h4>Amanda Jepson</h4>
+                    <h4>Gloria</h4>
                     <span>Accountant</span>
                   </div>
                 </div>

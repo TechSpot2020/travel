@@ -9,7 +9,8 @@ const PRICES = [
     title: "FREE",
     description: "Free subscription consist of 1 free GB, No Support",
     image: price1,
-    pathLink: "/price-free-detail",
+    pathLink:
+      "https://techspot2020.github.io/travel/?#/pricing/price-free-detail",
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const PRICES = [
     description:
       "Silver subscription consist of 3 free GB, Assistance provided 12 hours a day",
     image: price2,
-    pathLink: "/price-silver-detail",
+    pathLink:
+      "https://techspot2020.github.io/travel/?#/pricing/price-free-detail/price-silver-detail",
   },
   {
     id: 3,

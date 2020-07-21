@@ -12,6 +12,7 @@ import PriceFree from "../pages/Products/ProductDetails/PriceFree";
 import FreeCOForm from "../components/FreeCO/FreeCOForm";
 import SilverCOForm from "../components/SilverCO/SilverCOForm";
 import GoldCOForm from "../components/GoldCO/GoldCOForm";
+import Page404 from "../pages/Page404";
 
 class MyRoute extends Component {
   render() {
@@ -19,32 +20,34 @@ class MyRoute extends Component {
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about-us" component={AboutUs} />
-          <Route exact path="/services" component={Services} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/pricing" component={ProductCards} />
-          <Route exact path="/price-free-detail" component={PriceFree} />
-          <Route exact path="/price-silver-detail" component={PriceSilver} />
-          <Route exact path="/price-gold-detail" component={PriceGold} />
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/services" component={Services} />
+          <Route path="/team" component={Team} />
+          <Route path="/pricing" component={ProductCards} />
           <Route
-            exact
+            path="https://techspot2020.github.io/travel/?#/pricing/price-free-detail"
+            component={PriceFree}
+          />
+          <Route path="/price-silver-detail" component={PriceSilver} />
+          <Route path="/price-gold-detail" component={PriceGold} />
+          <Route
             path="/checkout-process-free-subscription"
             component={FreeCOForm}
           />
 
           <Route
-            exact
             path="/checkout-process-silver-subscription"
             component={SilverCOForm}
           />
 
           <Route
-            exact
             path="/checkout-process-gold-subscription"
             component={GoldCOForm}
           />
 
-          <Route exact path="/contact-us" component={ContactUs} />
+          <Route path="/contact-us" component={ContactUs} />
+
+          <Route component={Page404} />
           {/* <Route
             exact
             path="/checkout-process-free-subscription"

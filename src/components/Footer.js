@@ -89,8 +89,8 @@ class Footer extends Component {
                   <p>Sign up for all the latest tips, tricks, and trends</p>
                   <form action="">
                     <input type="email" name="email" />
-                    <br />
                   </form>
+                  <br />
                   <Button
                     color="danger"
                     block={true}

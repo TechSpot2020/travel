@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../PayForm.css";
 import PRICES from "../../pages/prices";
+import { Link } from "react-router-dom";
 
 class SilverPayForm extends Component {
   render() {
@@ -24,15 +25,19 @@ class SilverPayForm extends Component {
             <div class="column form-wrapper">
               <h5 className="text-left">Hello, {name}</h5>
               <form action="">
-                <label for="">
-                  <input type="text" id="name" required />
-                  <span>Name</span>
-                </label>
+                <input
+                  type="text"
+                  id="username"
+                  required
+                  placeholder="Your Name"
+                />
 
-                <label for="">
-                  <input type="text" id="c-card" required />
-                  <span>Credit Card</span>
-                </label>
+                <input
+                  type="text"
+                  id="credit card"
+                  required
+                  placeholder="Credit Card"
+                />
 
                 <label for="">Expires on:</label>
 
@@ -61,7 +66,9 @@ class SilverPayForm extends Component {
                 </select>
 
                 <div class="btn-checkout">
-                  <button type="submit">Checkout</button>
+                  <button type="submit">
+                    <Link to={"/"}>Checkout</Link>
+                  </button>
                 </div>
               </form>
             </div>

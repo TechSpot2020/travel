@@ -51,6 +51,8 @@ class ContactUs extends Component {
                     <br />
                     info@spotme.com
                   </p>
+                  <br />
+                  <br />
                 </div>
               </div>
               <div

@@ -12,8 +12,7 @@ class PCSilver extends Component {
     return (
       <>
         <br />
-        <h3>Pricing</h3>
-        <hr />
+        <h3 className="text-center">Pricing</h3>
         <br />
         <br />
         <div className="container-fluid d-flex justify-content-center">

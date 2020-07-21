@@ -26,56 +26,54 @@ class PriceSilver extends Component {
 
           <section class="portfolio-details">
             <div class="container">
-              <div class="portfolio-details-container">
-                {/* <div class="owl-carousel portfolio-details-carousel">
+              {/* <div class="owl-carousel portfolio-details-carousel">
                   <img src={silver} class="img-fluid" alt="" />
                 </div> */}
-                <div>
-                  <img
-                    src={silver}
-                    width="700px"
-                    height="500px"
-                    alt="silver-image-detail"
-                  />
-                </div>
+              <div>
+                <img
+                  src={silver}
+                  width="700px"
+                  height="500px"
+                  alt="silver-image-detail"
+                />
+              </div>
 
-                <div class="portfolio-info">
-                  <h3>Project information</h3>
-                  <ul>
-                    <li>
-                      <h4>
-                        <strong>Price</strong>: RM 19.90
-                      </h4>
-                      <p>Every Month</p>
-                    </li>
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li>
+                    <h4>
+                      <strong>Price</strong>: RM 19.90
+                    </h4>
+                    <p>Every Month</p>
+                  </li>
 
-                    <li>
-                      <strong>Category</strong>: Silver Membership
-                    </li>
+                  <li>
+                    <strong>Category</strong>: Silver Membership
+                  </li>
 
-                    <li>
-                      <strong>Release date</strong>: 10 January 2020
-                    </li>
+                  <li>
+                    <strong>Release date</strong>: 10 January 2020
+                  </li>
 
-                    <li>
-                      <strong>Released by</strong>: TechSpot Company
-                    </li>
+                  <li>
+                    <strong>Released by</strong>: TechSpot Company
+                  </li>
 
-                    <li>
-                      <strong>Inquiry</strong>:{" "}
-                      <a href="#">TechSpot@company.com</a>
-                    </li>
-                  </ul>
+                  <li>
+                    <strong>Inquiry</strong>:{" "}
+                    <a href="#">TechSpot@company.com</a>
+                  </li>
+                </ul>
 
-                  <button className="btn-primary btn-block">
-                    <Link to={"/checkout-process-silver-subscription"}>
-                      Subscribe Now
-                    </Link>
-                    {/* <a href="/checkout-process-silver-subscription">
+                <button className="btn-primary btn-block">
+                  <Link to={"/checkout-process-silver-subscription"}>
+                    Subscribe Now
+                  </Link>
+                  {/* <a href="/checkout-process-silver-subscription">
                       Subscribe Now
                     </a> */}
-                  </button>
-                </div>
+                </button>
               </div>
 
               <div class="portfolio-description">

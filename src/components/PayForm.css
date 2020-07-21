@@ -146,15 +146,15 @@ body {
   padding: 10px 15px;
   font-weight: 700;
   text-transform: uppercase;
-  border: 1px solid white;
+  border: 1px solid rgb(39, 37, 37);
   background: transparent;
-  color: white;
+  color: rgb(39, 37, 37);
   margin-top: 20px;
   cursor: pointer;
 }
 
 .form-wrapper form .btn-wrapper button:hover {
-  background: white;
+  background: rgb(39, 37, 37);
   color: #feae17;
 }
 

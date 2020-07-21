@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import silver from "../../../images/silver.svg";
+import silver from "../../../images/silver.png";
 import { Link, NavLink } from "react-router-dom";
 
 class PriceSilver extends Component {
@@ -31,7 +31,8 @@ class PriceSilver extends Component {
                   <img src={silver} class="img-fluid" alt="" />
                 </div> */}
                 <div>
-                  <img src={silver} alt="silver-image-detail" />
+                  <img src={silver} style= {{width="700px",
+                    height="500px"}} alt="silver-image-detail" />
                 </div>
 
                 <div class="portfolio-info">

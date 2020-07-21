@@ -18,9 +18,9 @@ class Header extends Component {
             <nav className="nav-menu d-none d-lg-block">
               <ul>
                 <li className="active">
-                  <NavLink exact activeStyle={{ color: "orange" }} to={"/"}>
+                  <Link exact activeStyle={{ color: "orange" }} to={"/"}>
                     Home
-                  </NavLink>
+                  </Link>
 
                   {/* <a href="/">Home</a> */}
                 </li>

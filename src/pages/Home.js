@@ -9,8 +9,8 @@ import Portfolio from "./Portfolio";
 import Team from "./Team";
 import ContactUs from "./ContactUs";
 import Values from "./Values";
-import ProductCards from "./Products/ProductCards";
-import PCFree from "./PCFree";
+// import ProductCards from "./Products/ProductCards";
+// import PCFree from "./PCFree";
 import PCSilver from "./PCSilver";
 
 function Home() {
@@ -26,8 +26,8 @@ function Home() {
         <Testimonials />
         <Portfolio />
         <Team />
-        <hr />
-        <PCFree />
+        {/* <hr />
+        <PCFree /> */}
 
         <hr />
         <PCSilver />

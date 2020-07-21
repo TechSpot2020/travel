@@ -5,7 +5,7 @@ import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
 import Services from "../pages/Services";
 import Team from "../pages/Team";
-import ProductCards from "../pages/Products/ProductCards";
+// import ProductCards from "../pages/Products/ProductCards";
 import PriceGold from "../pages/Products/ProductDetails/PriceGold";
 import PriceSilver from "../pages/Products/ProductDetails/PriceSilver";
 import PriceFree from "../pages/Products/ProductDetails/PriceFree";
@@ -13,6 +13,7 @@ import FreeCOForm from "../components/FreeCO/FreeCOForm";
 import SilverCOForm from "../components/SilverCO/SilverCOForm";
 import GoldCOForm from "../components/GoldCO/GoldCOForm";
 import Page404 from "../pages/Page404";
+import PCSilver from "../pages/PCSilver";
 
 class MyRoute extends Component {
   render() {
@@ -23,7 +24,7 @@ class MyRoute extends Component {
           <Route path="/about-us" component={AboutUs} />
           <Route path="/services" component={Services} />
           <Route path="/team" component={Team} />
-          <Route path="/pricing" component={ProductCards} />
+          <Route path="/pricing" component={PCSilver} />
           <Route path="/price-free-detail" component={PriceFree} />
           <Route path="/price-silver-detail" component={PriceSilver} />
           <Route path="/price-gold-detail" component={PriceGold} />

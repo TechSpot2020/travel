@@ -65,7 +65,9 @@ class FreePayForm extends Component {
                 </select>
 
                 <div class="btn-checkout">
-                  <button type="submit">Checkout</button>
+                  <button type="submit">
+                    <Link to={"/home"}>Checkout</Link>
+                  </button>
                 </div>
               </form>
             </div>

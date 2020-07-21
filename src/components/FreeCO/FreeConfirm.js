@@ -29,7 +29,13 @@ export class FreeConfirm extends Component {
             <ul className="list-group">
               <li className="list-group-item">
                 <div>{PRICES[0].title}</div>
-                <div>{PRICES[0].description}</div>
+                <div>
+                  {" "}
+                  Details :<li>Best Guranteed Booking Price</li>
+                  <li>Map Navigation Service</li>
+                  <li>Point Reward Collection</li>
+                  <li>Promotion Available</li>
+                </div>
               </li>
             </ul>
           </li>

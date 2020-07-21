@@ -14,8 +14,14 @@ const PCSilverprice = (props) => {
           Silver membership with cost of RM 19.90
         </p>
         <br />
-        <button className="btn btn-outline-success">
-          <Link to={"/price-silver-detail"}>View More</Link>
+        <button className="btn btn-outline-warning">
+          <Link
+            exact
+            activeStyle={{ color: "white" }}
+            to={"/price-silver-detail"}
+          >
+            View More
+          </Link>
           {/* <a href={pathLink}>View More</a> */}
         </button>
       </div>

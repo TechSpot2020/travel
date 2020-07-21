@@ -17,7 +17,7 @@ class SilverPayForm extends Component {
               <div class="product-detail">
                 <img src={PRICES[1].image} alt="Free-Subscription" />
                 <p class="product-name">{PRICES[1].title}</p>
-                <p class="product-price">RM 50 </p>
+                <p class="product-price">RM 19.90 </p>
               </div>
             </div>
 

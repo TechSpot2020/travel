@@ -17,7 +17,7 @@ class GoldPayForm extends Component {
               <div class="product-detail">
                 <img src={PRICES[2].image} alt="Gold-Subscription" />
                 <p class="product-name">{PRICES[2].title}</p>
-                <p class="product-price">RM 100 </p>
+                <p class="product-price">RM 29.90 </p>
               </div>
             </div>
 

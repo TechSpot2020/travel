@@ -13,8 +13,14 @@ const PCGoldPrice = (props) => {
         <p className="card-text text-secondary">
           Gold membership with cost of RM 29.90
         </p>
-        <button className="btn btn-outline-success">
-          <Link to={"/price-gold-detail"}>View More</Link>
+        <button className="btn btn-outline-danger">
+          <Link
+            exact
+            activeStyle={{ color: "white" }}
+            to={"/price-gold-detail"}
+          >
+            View More
+          </Link>
           {/* <a href={pathLink}>View More</a> */}
         </button>
       </div>

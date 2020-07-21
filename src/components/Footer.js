@@ -91,23 +91,21 @@ class Footer extends Component {
                   <form action="">
                     <input type="email" name="email" />
                     <br />
-                    <Container>
-                      <Button
-                        color="danger"
-                        block={true}
-                        onClick={this.toggle.bind(this)}
-                      >
-                        Subscribe
-                      </Button>{" "}
-                      <br />
-                      <Alert
-                        color="success"
-                        isOpen={this.state.visible}
-                        toggle={this.toggle.bind(this)}
-                      >
-                        Successfully subscribe!
-                      </Alert>
-                    </Container>
+                    <Button
+                      color="danger"
+                      block={true}
+                      onClick={this.toggle.bind(this)}
+                    >
+                      Subscribe
+                    </Button>{" "}
+                    <br />
+                    <Alert
+                      color="success"
+                      isOpen={this.state.visible}
+                      toggle={this.toggle.bind(this)}
+                    >
+                      Successfully subscribe!
+                    </Alert>
                   </form>
                 </div>
               </div>

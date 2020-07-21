@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a8cfda48d05290b8ec17309368f6c11",
+    "revision": "8b8a404f618821f887fb5dbc60172deb",
     "url": "/travel/index.html"
   },
   {
-    "revision": "a4d0ff8db0bbe300de96",
-    "url": "/travel/static/css/main.40f27466.chunk.css"
+    "revision": "a942033b33d16626aae4",
+    "url": "/travel/static/css/main.34edcef7.chunk.css"
   },
   {
     "revision": "26ae812ce13334fac149",
@@ -16,27 +16,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travel/static/js/2.8fc31a2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4d0ff8db0bbe300de96",
-    "url": "/travel/static/js/main.f5fb4a59.chunk.js"
+    "revision": "a942033b33d16626aae4",
+    "url": "/travel/static/js/main.6786c766.chunk.js"
   },
   {
     "revision": "5734ad54b26bd5ccfde1",
     "url": "/travel/static/js/runtime-main.16f54be6.js"
   },
   {
-    "revision": "9c236ad3d72fd15238da275a95daac94",
-    "url": "/travel/static/media/free.9c236ad3.svg"
+    "revision": "ae5d1ab9f6bfea28212dc30ea4e8ae1b",
+    "url": "/travel/static/media/free.ae5d1ab9.svg"
   },
   {
-    "revision": "eb13bfd55fec9d15197472d4c89b1901",
-    "url": "/travel/static/media/gold.eb13bfd5.svg"
+    "revision": "6e0a36ca61cdd7e3415792ca34b6ebfc",
+    "url": "/travel/static/media/gold.6e0a36ca.svg"
   },
   {
     "revision": "084b87707801d0d56d5ebb181512a842",
     "url": "/travel/static/media/logo.084b8770.jpeg"
   },
   {
-    "revision": "135e5a20665e49f09b84dca218d2dfaf",
-    "url": "/travel/static/media/silver.135e5a20.svg"
+    "revision": "9ad732f157ac80c5188251e5b0e2085e",
+    "url": "/travel/static/media/silver.9ad732f1.svg"
   }
 ]);
